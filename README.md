@@ -65,7 +65,12 @@
 ### 3. Updating your fork from original repo to keep up with their changes:
 
     `git pull upstream master`
-    
+
+## If a folder turns Grey i.e not being tracked
+- ### Remove .git/ folder by command
+- `rm -rf .git`
+- ## After removing the .git
+- [Link for solution](https://stackoverflow.com/questions/19584255/what-does-a-grey-icon-in-remote-github-mean)
 ## Study Images->
 
 ![Alt text](https://raw.github.com/shauryauppal/Git_and_Github_Guide/master/Git%20Guide/1.jpg)
