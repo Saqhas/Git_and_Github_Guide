@@ -11,7 +11,7 @@
 ## **CHECKING THE STATUS OF THE REPOSITORY** :-
   - `git status`
 
-## **ADDING FILES TO THE STAGING AREA ** :-
+## **ADDING FILES TO THE STAGING AREA** :-
 
 - ### Adding all files in single Step(use any one of these)
     - `git add --all`
