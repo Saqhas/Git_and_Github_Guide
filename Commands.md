@@ -13,7 +13,7 @@
 
 ## **ADDING FILES TO THE STAGING AREA ** :-
 
-- ### Adding all files in single Step(use any one of these
+- ### Adding all files in single Step(use any one of these)
     - `git add --all`
     - `git add "*"`
 - ## Adding files one by one
@@ -31,7 +31,7 @@
 - ### View Log
 - `git log`
 
-## ** Git Branch **
+## **Git Branch**
 - ### Make Branch/Reset/Checkout
 - #### New Branch
 - `git branch new_branch_name`
@@ -39,3 +39,14 @@
 - `git checkout new_branch_name`
 - #### Check in which branch you are in now type->
 - `git branch`
+- #### Reset Commit  //this can be used to a previous commit in your history
+- `git reset SHA`    
+
+## **Git Clone**
+- `git clone remote_location clone_name`
+- ### List of Git's project's remote->
+- `git remote -v`
+- ### Git Fetch
+- `git fetch`
+- ### After Git Fetch we merge local master to remote master
+- `git merge origin/master`
