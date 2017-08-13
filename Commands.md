@@ -1,3 +1,4 @@
+# **GIT & GITHUB GUIDE**
 
 ## **CREATING A GITHUB REPOSITORY** :-
    - ###  Creating a New Repository
@@ -12,13 +13,29 @@
 
 ## **ADDING FILES TO THE STAGING AREA ** :-
 
-- ### Adding all files in single Step
+- ### Adding all files in single Step(use any one of these
     - `git add --all`
+    - `git add "*"`
 - ## Adding files one by one
     - `git add file_name`
+- ## Adding files more than one but selected
+    - `git add file_name1 file_name2`
 
 ## **COMMITING THE CHANGES** :-
 - ### With the commiting message in one line
     - `git commit -m "commit message"`
 - ### Write the commiting message in the Git Default editor
     -  `git commit`
+    
+## **Git Log**
+- ### View Log
+- `git log`
+
+## ** Git Branch **
+- ### Make Branch/Reset/Checkout
+- #### New Branch
+- `git branch new_branch_name`
+- #### Git checkout to new branch
+- `git checkout new_branch_name`
+- #### Check in which branch you are in now type->
+- `git branch`
