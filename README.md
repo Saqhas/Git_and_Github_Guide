@@ -26,7 +26,8 @@
     - `git commit -m "commit message"`
 - ### Write the commiting message in the Git Default editor
     -  `git commit`
-
+- ### Change the Commit message
+	- `git commit --amend`
 ## **Git Log**
 - ### View Log
 - `git log`
