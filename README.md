@@ -26,6 +26,11 @@
     - `git commit -m "commit message"`
 - ### Write the commiting message in the Git Default editor
     -  `git commit`
+- ### Change a commit message
+	- `git commit --amend`
+
+## **Dropping all teh changes done after a pull.** :-
+- `git stash`
 
 ## **Git Log**
 - ### View Log
