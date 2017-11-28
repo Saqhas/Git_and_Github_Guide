@@ -26,8 +26,7 @@
     - `git commit -m "commit message"`
 - ### Write the commiting message in the Git Default editor
     -  `git commit`
-- ### Change the Commit message
-	- `git commit --amend`
+
 ## **Git Log**
 - ### View Log
 - `git log`
@@ -66,3 +65,6 @@
 ![Alt text](https://raw.github.com/shauryauppal/Git_and_Github_Guide/master/Git%20Guide/5.jpg)
 
 ![Alt text](https://raw.github.com/shauryauppal/Git_and_Github_Guide/master/Git%20Guide/6.jpg)
+
+## Thank You
+
