@@ -55,7 +55,8 @@
 - `git fetch`
 - ### After Git Fetch we merge local master to remote master
 - `git merge origin/master`
-
+- ### Change the remote url
+- `git remote set-url <url>`
 
 ## Study Images->
 
