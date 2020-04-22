@@ -51,3 +51,5 @@
 
 
 	Note: To fork a repository we need to go to the repository and click fork button on the up-right.
+	
+21) Get the remote url --> git config --get remote.origin.url

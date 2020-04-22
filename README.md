@@ -58,6 +58,33 @@
 - ### Change the remote url
 - `git remote set-url <url>`
 
+## **Get the Remote Url**
+- `git config --get remote.origin.url`
+
+## Get just one file from different Branch
+- `git checkout experiment -- app.js`
+
+## Replace master with a branch
+- ### On local
+	- `git checkout feature_branch`
+	- `git merge -s ours --no-commit master`
+	- `git commit      # Add a message regarding the replacement that you just did`
+	- `git checkout master`
+	- `git merge feature_branch`
+- ### To rewrite local branch
+	- `git branch -f master dev_branch`
+- ### To rewrite remote branch
+	- `git push remote +dev_branch:master`
+
+## Remove a branch
+- `git push --delete origin <branch_name>`
+- `git branch -d <branch_name>`
+
+## Adding the description to a git branch
+- `git config branch.<branch-name>.description` "<description message>"
+
+## View the description of a branch
+- `git config branch.<branch-name>.description`
 ## Study Images->
 
 ![Alt text](https://raw.github.com/shauryauppal/Git_and_Github_Guide/master/Git%20Guide/1.jpg)
