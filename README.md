@@ -83,6 +83,27 @@
 ## Adding the description to a git branch
 - `git config branch.<branch-name>.description` "<description message>"
 
+## How to keep a forked branch update to date as original branch
+### 1. Clone your fork:
+
+    `git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git`
+
+### 2. Add remote from original repository in your forked repository: 
+
+    `cd into/cloned/fork-repo`
+    `git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git`
+    `git fetch upstream`
+
+### 3. Updating your fork from original repo to keep up with their changes:
+
+    `git pull upstream master`
+
+## If a folder turns Grey i.e not being tracked
+- ### Remove .git/ folder by command
+- `rm -rf .git`
+- ## After removing the .git
+- [Link for solution](https://stackoverflow.com/questions/19584255/what-does-a-grey-icon-in-remote-github-mean)
+
 ## View the description of a branch
 - `git config branch.<branch-name>.description`
 
@@ -100,7 +121,8 @@
 
 ## Problems 
 - **If the branch is in remote branches but you are not able to checkout, then it means that it is not added in Local refs**
-- **Solution:** Add the remote branch in local refs using this command: `git branch <branch-name> <remote-name>/<branch-name>`
+  - **Solution:** Add the remote branch in local refs using this command: `git branch <branch-name> <remote-name>/<branch-name>`
+
 ## Study Images->
 
 ![Alt text](https://raw.github.com/shauryauppal/Git_and_Github_Guide/master/Git%20Guide/1.jpg)
