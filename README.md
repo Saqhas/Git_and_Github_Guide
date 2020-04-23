@@ -85,6 +85,22 @@
 
 ## View the description of a branch
 - `git config branch.<branch-name>.description`
+
+## List all the information of the remote
+- `git remote <remote-name> show`
+
+## List info of all the branches
+- `git branch -a`
+
+## List all the remote branches
+- `git branch -r`
+
+## List all the remote refs
+- `git ls-remote origin`
+
+## Problems 
+- **If the branch is in remote branches but you are not able to checkout, then it means that it is not added in Local refs**
+- **Solution:** Add the remote branch in local refs using this command: `git branch <branch-name> <remote-name>/<branch-name>`
 ## Study Images->
 
 ![Alt text](https://raw.github.com/shauryauppal/Git_and_Github_Guide/master/Git%20Guide/1.jpg)
