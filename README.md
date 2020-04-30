@@ -119,6 +119,13 @@
 ## List all the remote refs
 - `git ls-remote origin`
 
+## Remove a branch from local
+- A fully merged branch : `git branch -d <branch name>`
+- A not fully merged branch : `git branch -D <branch name>`
+
+## Remove a branch from github repo
+- `git push -d <remote name> <branch name>` 
+
 ## Problems 
 - **If the branch is in remote branches but you are not able to checkout, then it means that it is not added in Local refs**
   - **Solution:** Add the remote branch in local refs using this command: `git branch <branch-name> <remote-name>/<branch-name>`
