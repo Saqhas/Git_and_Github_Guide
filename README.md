@@ -126,6 +126,12 @@
 ## Remove a branch from github repo
 - `git push -d <remote name> <branch name>` 
 
+## List all the files in your git repo
+- `git ls-files`
+
+## List the number of lines in your git repo
+- `git ls-files | xargs wc -l`
+
 ## Problems 
 - **If the branch is in remote branches but you are not able to checkout, then it means that it is not added in Local refs**
   - **Solution:** Add the remote branch in local refs using this command: `git branch <branch-name> <remote-name>/<branch-name>`
