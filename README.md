@@ -136,6 +136,8 @@
 - **If the branch is in remote branches but you are not able to checkout, then it means that it is not added in Local refs**
   - **Solution:** Add the remote branch in local refs using this command: `git branch <branch-name> <remote-name>/<branch-name>`
 
+## Cloning only a specific branhc from the remote
+- `git clone --single-branch --branch <branch-name> <repository-url>`
 ## Study Images->
 
 ![Alt text](https://raw.github.com/shauryauppal/Git_and_Github_Guide/master/Git%20Guide/1.jpg)
